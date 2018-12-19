@@ -1,0 +1,157 @@
+
+body {
+	text-align: center;
+	/* position: relative; */
+	font-weight: bold;
+    background: #112;
+    height: 1050px;
+    margin: auto;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo b {
+  font-size: 165px;
+  font-family: 'Baloo Tamma', cursive;
+  color: #fee;
+  text-shadow: 0 -40px 100px,
+  0 0 2px,
+  0 0 1em #ff4444,
+  0 0 0.5em #ff4444,
+  0 0 0.1em #ff4444,
+  0 10px 3px #000;
+}
+
+
+
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+
+
+table {
+	margin: 0 auto;
+}
+
+ .start_btn {
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	font-size: 37px;
+ 	color: #70BCFC;
+ 	text-shadow: 0px 4px 2px rgba(0,0,0,.32),
+ 	0px 1px 0px #6182ca,
+ 	0px 2px 0px #4f6aa7,
+ 	0px 3px 0px #5470ad;
+}
+
+.start_btn:active {
+	top: 4px;
+	text-shadow: none;
+
+}
+
+.stop_btn {
+	margin:0 15px;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	font-size: 37px;
+ 	color: #FE5E66;
+ 	text-shadow: 0px 4px 2px rgba(0,0,0,.32),
+ 	0px 1px 0px #C16469, 0px 2px 0px #BF434A, 0px 3px 0px #BF4C52;
+}
+
+.stop_btn:active {
+	top:4px;
+	text-shadow: none;
+
+}
+
+.restart_btn {
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	font-size: 37px;
+ 	color: #FCF470;
+ 	text-shadow: 0px 4px 2px rgba(0,0,0,.32),
+ 	0px 1px 0px #C9C470, 0px 2px 0px #C1B939, 0px 3px 0px #C2BC59;
+}
+
+.start_btn:active {
+	top:4px;
+	text-shadow: none;
+
+}
+
+#div {
+	height: 100px;
+	font-size: 100px;
+	font-weight: bold;
+	color: #FFF;
+	text-shadow: -4px 5px 20px rgba(0,0,0,.9),
+	1px 0px 20px #FFF,
+	3px -2px 20px #FFF,
+	-5px 0px 20px #FFF;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+td {
+	font-size: 50px;
+	padding: 8px;
+	text-align: center;
+	border-radius: 50%;
+	color: rgba(225,225,225,.3);
+}
+
+p {
+	/* position: relative; */
+	display: inline-block;
+	text-align: center;
+	width: auto;
+	line-height: 34px;
+	color: #19283c;
+	background: rgba(225,225,225,.9);
+	border: 1px solid #19283c;
+	border-radius: 10px;
+	/* z-index: 0; */
+	padding: 10px;
+}
+
+
+.text {
+	padding: 50px;
+}
+
